@@ -1,10 +1,9 @@
 function createjuice(fruits){
-    console.log(fruits + 'を受け取りました。ジュースにして返します。');
-    console.log(fruits + 'ジュースが届きました')
+    return fruits + 'を受け取りました。ジュースにして返します。'+ fruits + 'ジュースが届きました';
 }
-createjuice('みかん');
-createjuice('りんご');
-createjuice('ぶどう');
 
+console.log (createjuice('みかん'));
+console.log (createjuice('りんご'));
+console.log (createjuice('ぶどう'));
 
 
